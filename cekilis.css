@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(255, 199, 255) !important;
+    color:rgb(241, 91, 241) !important;
+}
+
+.container{
+    background-color: rgb(234, 170, 234);
+    margin-top:160px;
+    width:45%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    border: 1px solid rgb(217, 132, 217);
+    border-radius:2px ;
+    box-shadow: 2px 2px 5px purple;
+    
+}
+
+input{
+    color:rgb(241, 91, 241) !important;
+    border-radius: 2px;
+    border:1px solid purple !important;
+    width: 100px;
+    padding: 8px;
+
+    
+}
+input:focus{
+    color:rgb(241, 91, 241) !important;
+    border-radius: 2px;
+    border:1px solid purple !important;
+    outline: purple !important;
+    width: 100px;
+    padding: 8px;
+}
+
+
+input::placeholder{
+    color:rgb(241, 91, 241) !important;
+
+}
+
+button{
+    margin-bottom: 20px;
+    padding: 8px;
+    margin:13px;
+    border-radius: 2px;
+    border:1px solid purple !important;
+    color:rgb(241, 91, 241) !important;
+    background-color: white;
+
+}
+
+i{
+    color:purple !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color:white;
+}
+
+#liste{
+    background-color: violet !important;
+}
