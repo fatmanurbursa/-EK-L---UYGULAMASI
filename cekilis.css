@@ -5,8 +5,8 @@ body{
 
 .container{
     background-color: rgb(234, 170, 234);
-    margin-top:160px;
-    width:45%;
+    margin-top:100px;
+    width:30%;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 40px;
@@ -44,7 +44,7 @@ button{
     margin-bottom: 20px;
     padding: 8px;
     margin:13px;
-    border-radius: 2px;
+    border-radius: 6px;
     border:1px solid purple !important;
     color:rgb(241, 91, 241) !important;
     background-color: white;
@@ -55,14 +55,33 @@ i{
     color:purple !important;
 }
 
+
+
+
 ul{
     list-style-type: none;
+    line-height: 40px !important;
+    
+    
 }
 
 li{
-    color:white;
+    color:darkmagenta !important;
+    line-height: 40px !important;
+    
+   
+    
 }
 
 #liste{
-    background-color: violet !important;
+    background-color:rgb(242, 218, 247);
+    
+    width: 45%;
+    margin: 10px;
+    margin-top: 50px;
+
+}
+
+.deneme{
+    border: 1px solid violet !important;
 }

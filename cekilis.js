@@ -6,18 +6,25 @@ const text=document.querySelector("#text");
 
 gonder.addEventListener("click",function(e) {
 
-if(input.value!==" "){
+if(input.value.trim()!==""){
 
 const li=document.createElement("li");
 const text=document.createTextNode(input.value);
+
 li.appendChild(text);
 ul.appendChild(li);
+li.classList.add("list-group-item");
+ul.classList.add("deneme");
 e.preventDefault();
+}else if(input.value.trim()===""){
+    alert("Lütfen çekilişe katılacak isimleri sıra ile giriniz ve göndere basınız.")
 }
 
 });
 
 cekilis.addEventListener("click",function(e) {
+
+    $("#liste").hide("slow");
 
     var liElements=document.querySelectorAll("li");
 
